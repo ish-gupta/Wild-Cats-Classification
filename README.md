@@ -13,6 +13,7 @@ This project uses Convolutional Neural Networks (CNNs) for classification, which
 - Python (>3.6)
 - TensorFlow 
 - opencv
+- Flask (optional)
 
 ## About the Dataset 
 The [dataset](https://www.kaggle.com/iluvchicken/cheetah-jaguar-and-tiger) was found on Kaggle. Only the relevant parts of the same have been used in this project.
@@ -47,9 +48,16 @@ We train our model with the model.fit() function in 10 epochs with 30 steps per 
 
 This leaves us with a model whose loss and accuracy for training and validation can be visualised as follows:
 
+![image](https://user-images.githubusercontent.com/59526423/121019298-ea15ac00-c7bc-11eb-8bfa-c84d76f32c6b.png)
+
 The downward trend in loss and upward trend in accuracy is necessary to show that the model improved after each epoch.
 
 ### 4. Testing
 We test our saved model on the images in the 'test' folder which are images from the Internet that are present in neither the train, nor the validation folders. The model should be able to accurately make predictions and return 'Cheetah' or 'Jaguar' accordingly.
+
+## Optional
+This model can be used as a web application where you can upload an image and have it be classified. This web app was made using flask and the code for the same is stored in the app.py file of this repository. The static folder contains the .css files for the design of the web app, along with the image you need classified and the templates folder consists of the html templates. The web app output looks as follows:
+
+![image](https://user-images.githubusercontent.com/59526423/121018860-868b7e80-c7bc-11eb-98b5-35569a2c377c.png)
 
 You can find the link to the blog for the classification part of this project [here.](https://yash161101.medium.com/cheetah-or-jaguar-image-classification-convolutional-neural-network-437534643262)
