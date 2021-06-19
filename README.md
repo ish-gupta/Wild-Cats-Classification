@@ -1,4 +1,4 @@
-# wild-cats-classification
+# Wild-Cats-Classification
 An image processing project to classify between Cheetahs and Jaguars.
 
 ## About the Project
