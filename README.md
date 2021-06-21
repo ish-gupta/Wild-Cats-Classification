@@ -1,5 +1,5 @@
 # Wild-Cats-Classification
-An image processing project to classify between Cheetahs and Jaguars.
+An image processing project to classify between the wild cats - Cheetahs and Jaguars.
 
 ## About the Project
 
